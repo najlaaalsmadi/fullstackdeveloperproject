@@ -72,6 +72,7 @@ h1
 .delete-btn:hover,
 .option-btn:hover{
    background-color: var(--black);
+    color: white;
 }
 
 .btn{
@@ -81,6 +82,7 @@ h1
 
 .delete-btn{
    background-color: var(--red);
+     color: white;
 }
 
 .option-btn{

@@ -74,6 +74,7 @@ if(isset($_GET['delete_all'])){
  body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
+     color: black;
 }
 
 .user-profile {
@@ -131,6 +132,9 @@ h1
     {
         text-decoration: none;
     }
+    ul{
+        background-color: black;
+    }
 </style>
 </head>
 <body>
@@ -150,7 +154,7 @@ if(isset($message)){
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#">جماليات بيوتي شوب</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">

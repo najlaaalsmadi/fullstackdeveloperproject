@@ -70,6 +70,7 @@ input[type=submit]:hover {
 {
      background-color:#fff;
      color:black;
+    border: 1px solid black;
 
 }
 * {
@@ -77,6 +78,7 @@ input[type=submit]:hover {
 }
 
 input[type=text], textarea {
+    color: gray;
   width: 50%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -122,7 +124,15 @@ input[type=submit]:hover {
      {
          color:#3498db;
      }
-</style>
+   
+    
+        ul{
+            background-color: black;
+        }
+    
+    
+    </style>
+
 </head>
 <body>
   
@@ -134,7 +144,7 @@ input[type=submit]:hover {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#">جماليات بيوتي شوب</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">

@@ -71,7 +71,13 @@ if(isset($_GET['delete_all'])){
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
-
+<style>
+    
+    ul{
+        background-color: black;
+    }
+    
+    </style>
 </head>
 <body>
    
@@ -90,7 +96,7 @@ if(isset($message)){
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#">جماليات بيوتي شوب</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -166,7 +172,7 @@ if(isset($message)){
          }
       ?>
       <tr class="table-bottom">
-         <td colspan="4">المبلغ الإجمالي :</td>
+         <td colspan="4" style="color:white;">المبلغ الإجمالي :</td>
          <td><?php echo $grand_total; ?>$</td>
          <td><a href="index.php?delete_all" onclick="return confirm('حذف كل المنتجات من العربة?');" class="delete-btn <?php echo ($grand_total > 1)?'':'disabled'; ?>">حذف الكل</a></td>
       </tr>

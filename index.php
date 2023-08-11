@@ -71,6 +71,14 @@ if(isset($_GET['delete_all'])){
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+    <style>
+    
+        ul{
+            background-color: black;
+        }
+    
+    
+    </style>
 
 </head>
 <body>
@@ -90,7 +98,7 @@ if(isset($message)){
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#">جماليات بيوتي شوب</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
